@@ -8,12 +8,13 @@ import {
 import store from './src/globalReducer';
 
 import Home from './src/screens/Home'
+import Login from './src/screens/Login'
 
 const App = () => {
   return (
     <Provider store={store}>
       <NativeBaseProvider>
-        <Home />
+        <Login />
       </NativeBaseProvider>
     </Provider>
   );
